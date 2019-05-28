@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ringkasan Data Numerik</title>
+	<link rel = "stylesheet" type = "text/css" href = "styles.css" />
+</head>
+
+<body>
+<h2>Ringkasan Data Numerik</h2>
+
+<p>
+Analisis data eksplorasi merupakan metode statistik yang dapat digunakan untuk memeriksa data sehingga peneliti akan mengetahui kondisi data. Strategi dasar dari analisis data eksploratif sendiri dibedakan ke dalam 2 bentuk. Pertama dalam bentuk gambar yang terdiri dari garfik stem-leaf, histogram, dan lain-lain. Kedua, dengan menggunakan ringkasan numerik yang terdiri dari mean, median, kuartil, range, standard deviation, dan lain-lain.
+</br>
+Ringkasan numerik digunakan untuk mengetahui kondisi pemusatan dan persebaran data kuantitatif. Ringkasan tersebut diperlukan agar data menjadi lebih sederhana, mengetahui gambaran data serta sifat penting dari data tersebut.
+</br>
+</br>
+Untuk mengetahui kondisi pemusatan nilai data, maka perlu menghitung :
+<ul>
+	<li>Mean</li>
+		<ul>
+			<li>Merupakan nilai rata-rata hitung dari keseluruhan nilai data yang dimiliki</li>
+			<li>Menggunakan data berkala rasio, seperti berat badan, umur, tekanan, dan sebagainya.</li>
+			<li>Dipengaruhi oleh nilai ekstrim.</li>
+			<li>Apabila observasi berubah, maka mean juga akan berubah.</li>
+			<li>Notasi:</li>
+			<img src="ringkasan1.png" alt="ringkasan1">
+		</ul>
+	<li>Median</li>
+		<ul>
+			<li>Merupakan nilai yang berada tepat di tengah suatu distribusi nilai data yang sudah diurutkan.</li>
+			<li>Dipengaruhi oleh jumlah observasi bukan nilai observasi.</li>
+			<li>Digunakan pada distribusi frekuensi miring.</li>
+			<li>Dapat digunakan untuk data kuantitatif atau kualitatif.</li>
+		</ul>
+	<li>Modus</li>
+		<ul>
+			<li>Merupakan nilai observasi yang sering muncul.</li>
+			<li>Tidak dipengaruhi oleh nilai ekstrim.</li>
+			<li>Digunakan pada data kualitatif maupun kuantitatif.</li>
+			<li>Unimodal artinya terdapat satu nilai modus dan bimodal artinya dua nilai modus.</li>
+			<li>Tidak semua data memiliki modus.</li>
+		</ul>
+</ul>
+</p>
+<p>
+Sedangkan untuk mengetahui kondisi persebaran nilai data, maka perlu
+menghitung :
+<ul>
+	<li>Jarak /range (R)</li>
+		<ul>
+			<li>R = Max-Min</li>
+		</ul>
+	<li>Jarak antar kuartil/Inter-quartile range:</li>
+		<ul>
+			<li>Kuartil membagi data (n) yang berurutan atas 4 bagian yang sama banyak.</li>
+			<img src="ringkasan2.png" alt="ringkasan2">
+			<li>Untuk data yang tidak dikelompokkan terlebih dahulu dicari mediannya, kemudian kuartil bawah dan kuartil atas.</li>
+			<li>Untuk data yang dikelompokkan rumusan kuartil identik dengan rumusan mencari median.</li>
+			<li>Jarak antar kuartil atau IQR (Inter Quartile Range) merupakan selisih antara Q3 dan Q1.</li>
+		</ul>
+	<li>Standard Deviation (SD): “rata-rata” jarak nilai data terhadap mean</li>
+		<ul>
+			<img src="ringkasan3.png" alt="ringkasan3">
+			<li>SD >= 0. (SD = 0 saat nilai data sama semua)</li>
+			<li>Memiliki unit pengukuran yang sama dengan data observasi</li>
+			<li>Dipengaruhi oleh nilai ekstrim</li>
+		</ul>
+</ul>
+</p>
+<p>
+	Ringkasan numerik biasanya disajikan dalam bentuk grafik box-plot yang pada umumnya menampilkan 5 ringkasan nilai, yaitu:
+	<ol>
+			<li>Nilai minimum</li>
+			<li>Kuartil I (Q1)</li>
+			<li>Median</li>
+			<li>Kuartil III (Q3)</li>
+			<li>Nilai maksimum.</li>
+	</ol>
+	<img src="ringkasan4.png" alt="ringkasan4">
+</p>
+
+<h4>Hubungan Mean, Median, dan Modus :</h4>
+
+<p>
+	<ol>
+			<li>Mean pada umumnya dipilih untuk mengukur ukuran pemusatan, bila distribusi mendekati simetris maka data memiliki stabilitas yang besar dan digunakan sebagai dasar statistika selanjutnya.</li>
+			<li>Median paling tepat menggambarkan ukuran pemusatan bila distribusi menunjukkan keistimewaan. Saat menceng gunakan nilai median.</li>
+			<li>Modus biasanya digunakan untuk menafsirkan data serta mendapatkan gambaran besar dari data secara cepat dan waktu yang singkat.</li>
+	</ol>
+</p>
+
+<h4>Mean vs Median</h4>
+
+<p>
+	<ol>
+			<li>Nilai mean dan median sama, jika distribusi nilai data berupa kurva yang setangkup/simetris</li>
+			<li>Mean dan median berbeda, jika distribusi nilai data menceng</li>
+			<li>Menceng kanan : mean lebih besar dari median</li>
+			<li>Menceng kiri: mean lebih kecil dari median</li>
+			<img src="ringkasan5.png" alt="ringkasan5">
+			<li>Mean ditarik oleh nilai ekstrim, namun tidak dengan median. Median lebih baik digunakan sebagai ukuran pusat data jika nilai datanya bervariasi</li>
+	</ol>
+</p>
+
+<h4>Hinges (Engsel)</h4>
+
+<p>
+	<ul>
+			<li>Lower-Hinges (H1), merupakan median dari nilai minimum data s.d nilai median (identik dengan Q1)</li>
+			<li>Upper-Hinges (H2), merupakan median dari nilai median s.d nilai maksimum data ((identik dengan Q3)</li>
+	</ul>
+	*Note: Kecuali untuk data berjumlah genap, dimana median akan berada diantara 2 nilai
+</p>
+
+<h4>Nilai Ekstrim</h4>
+
+<p>
+	<ul>
+			<li>Outliers atau pencilan merupakan nilai yang terletak jauh atau menyimpang dari kelompok utama dan penting untuk dapat mengidentifikasi mereka.</li>
+			<li>Kandidatnya adalah nilai minimum dan maksimum</li>
+			<li>IQR digunakan sebagai bagian dari aturan praktis untuk mengidentifikasi outlier.</li>
+			<li>Nilai data dianggap outlier rendah: setiap nilai < Q1  1,5IQR</li>
+			<li>Nilai data dianggap outlier tinggi: setiap nilai > Q3 + 1,5IQ</li>
+	</ul>
+</p>
+
+<img src="ringkasan6.png" alt="ringkasan6">
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/SvoyeW3fIw4">
+</iframe>
+
+</body>
+</html>

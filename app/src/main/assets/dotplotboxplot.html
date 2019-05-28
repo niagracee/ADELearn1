@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dot Plot dan Box Plot</title>
+	<link rel = "stylesheet" type = "text/css" href = "styles.css" />
+</head>
+
+<body>
+<h2>Dot Plot dan Box Plot</h2>
+
+<h4>Dot Plot</h4>
+<p>
+	Dot plot adalah jenis tampilan grafis yang digunakan untuk membandingkan frekuensi dalam kategori atau kelompok. Dot plot berbentuk seperti diagram batang dengan titik-titik sebagai gambaran dari frekuensi data pada tiap kategori. Bentuk lain dari dot plot adalah seperti diagram kartesius dengan sumbu x adalah frekuensi dan sumbu y adalah kategori.
+</br>
+Ringkasan numerik digunakan untuk mengetahui kondisi pemusatan dan persebaran data kuantitatif. Ringkasan tersebut diperlukan agar data menjadi lebih sederhana, mengetahui gambaran data serta sifat penting dari data tersebut.
+</br>
+Contoh penggunaan diagram dotplot “Waktu yang dibutuhkan seseorang untuk sarapan”
+</br>
+<img src="dot1.png" alt="dot1">
+</p>
+
+<h4>Box Plot</h4>
+<p>
+	Box plot (atau juga bisa disebut diagram whisker) adalah cara menampilkan distribusi data berdasarkan ringkasan numerik yaitu: nilai minimum, kuartil bawah, median, kuartil atas, dan nilai maksimum.
+	</br>
+	Box plot kita menggambarkan ringkasan numerik secara visual, memberikan gambaran pusat data, sebaran data, bentuk distribusi data dan dapat membandingkan antar data. Dengan membaca box plot, kita dapat mengetahui nilai minimum, nilai maksimum, Q1, Median, Q3, ada tidaknya nilai outlier (pencilan) dan nilai ekstrim (pencilan jauh), serta distribusi dari dari data pengamatan.
+	</br>
+Contoh penggunaan diagram dotplot “Waktu yang dibutuhkan seseorang untuk sarapan”
+</br>
+<img src="dot1.png" alt="dot1">
+</p>
+
+<h4>Bagian-bagian Box Plot</h4>
+<p>
+	<ol>
+			<li>Bagian utama kotak berbentuk persegi merupakan bidang menyajikan IQR, dimana 50% dari nilai data pengamatan terletak di sana. IQR menggambarkan ukuran penyebaran data. Semakin panjang bidang IQR menunjukkan data semakin menyebar.</li>
+			<li>Garis bawah kotak (LQ) = Q1, dimana 25% data pengamatan lebih kecil atau sama dengan Q1.</li>
+			<li>Garis tengah kotak = Q2 (median), dimana 50% data pengamatan lebih kecil atau sama dengan nilai ini.</li>
+			<li>Garis atas kotak (UQ) = Q3 (Kuartil ketiga) dimana 75% data pengamatan lebih kecil atau sama dengan nilai Q1.</li>
+			<li>Garis yang merupakan perpanjangan dari box (baik ke arah atas ataupun ke arah bawah) dinamakan dengan whiskers.</li>
+			<li>Whiskers bawah menunjukkan nilai yang lebih rendah dari kumpulan data yang berada dalam IQR.</li>
+			<li>Whiskers atas menunjukkan nilai yang lebih tinggi dari kumpulan data yang berada dalam IQR</li>
+			<li>Panjang whisker ≤ 1.5 x IQR. Garis whisker dimulai dari ujung kotak IQR, dan berakhir pada nilai data yang bukan dikategorikan sebagai outlier. Dengan demikian, nilai terbesar dan terkecil dari data pengamatan (tanpa termasuk outlier) masih merupakan bagian dari Boxplot yang terletak tepat di ujung garis tepi whiskers.</li>
+			<li>Panjang boxplot dapat digunakan untuk menggambarkan tingkat penyebaran atau keragaman data pengamatan,</li>
+			<li>Letak median dan panjang whisker menggambarkan tingkat kesimetrisannya.</li>
+	</ol>
+</p>
+
+<h4>Kelebihan Box Plot</h4>
+<p>
+	<ol>
+			<li>Secara visual menggambarkan lokasi dari data</li>
+			<li>Menunjukkan sebaran data tersebut simetri atau tidak</li>
+			<li>Tidak seperti metode yang lain, box plot memperlihatkan outlier</li>
+			<li>Dapat cepat digunakan untuk membandingkan lebih dari satu distribusi data pada satu tampilan secara bersamaan.</li>
+	</ol>
+</p>
+
+<h4>Kelemahan Box Plot</h4>
+<p>
+	<ol>
+			<li>Cenderung memperhatikan outlier, yang mungkin tidak diperlukan dalam suatu data.</li>
+			<li>Selain itu bentuk distribusi terpengaruh pula adanya outlier.</li>
+			<li>Cenderung menyembunyikan detail dari distribusi data.</li>
+	</ol>
+</p>
+
+<h4>Pembuatan Box Plot</h4>
+<p>
+	Dalam pembuatan box plot, nilai yang kita perlukan antara lain :
+	<ol>
+			<li>Median adalah nilai yang terletak di tengah setelah data diurutkan. Untuk menentukan posisi nilai median suatu data tunggal dapat menggunakan rumus</li>
+			<img src="dot2.png" alt="dot2">
+			<li>Kuartil adalah nilai yang membagi data menjadi 4 bagian. Kuartil dinotasikan dengan Q. Rumus untuk menentukan kuartil untuk data tunggal adalah</li>
+			<img src="dot3.png" alt="dot3">
+			<li>Interquartile Range (IQR) adalah selisih Q1 dan Q3.</li>
+			<li>Nilai outlier atau pencilan adalah nilai data yang letaknya lebih dari 1.5 x panjang kotak (IQR), diukur dari UQ (atas kotak) atau LQ (bawah kotak).</li>
+				<ul>
+					<li>Q3 + (1.5 x IQR) < outlier atas ≤ Q3 + (3 x IQR)</li>
+					<li>Q1 – (1.5 x IQR) > outlier bawah ≥ Q1 – (3 x IQR)</li>
+				</ul>
+			<li>Nilai ekstrim atau pencilan jauh adalah nilai-nilai yang letaknya lebih dari 3 x panjang kotak (IQR), diukur dari UQ (atas kotak) atau LQ (bawah kotak).</li>
+				<ul>
+					<li>Ekstrim bagian atas apabila nilainya berada di atas Q3 + (3 x IQR) dan</li>
+					<li>Ekstrim bagian bawah apabila nilainya lebih rendah dari Q1 – (3 x IQR)</li>
+				</ul>
+			<li>Panjang whisker maksimal adalah 1,5 x IQR dari kotak dan digambarkan hingga nilai maksimum atau minimum data yang terletak diantara Q1-1,5 x IQR dan Q3+1,5xIQR.</li>
+	</ol>
+</p>
+
+<img src="dot4.png" alt="dot4">
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/SvoyeW3fIw4">
+</iframe>
+
+</body>
+</html>

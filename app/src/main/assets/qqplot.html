@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>QQ Plot</title>
+	<link rel = "stylesheet" type = "text/css" href = "styles.css" />
+</head>
+
+<body>
+<h2>QQ Plot</h2>
+<ul>
+	<li>QQ Plot adalah uji kenormalan dengan menggunakan grafik (secara visual).</li>
+	<li>QQ Plot lebih cocok digunakan jika sampelnya lebih besar dari atau sama dengan 20 (n>=0)</li>
+	<li>QQ Plot terbentuk dari Zscore dari Quantil dengan Nilai Observasi</li>
+</ul>
+<p>Langkah-Langkah</p>
+<ol>
+	<li>Urutkan data untuk mendapatkan x1, x2, ..., xn</li>
+	<li>Carilah nilai peluang yang bersesuaian</br><b>adaequationdisini</b></br>Jika terdapat nilai-nilai xi yang sama maka nilai i yang digunakan untuk mencari peluang yang bersesuaian pada observasi-observasi  xi yang sama adalah dirata-ratakan.</li>
+	<li>Hitung Quantile Normal Standar q1, q2, ..., qn</br>Quantile normal standar bisa dicari menggunakan tabel normal standar</br><b>adaequationdisini</b></br><b>adaequationdisini</b></li>
+	<li>Buat diagram pencar untuk  pasangan observasi (q1, x1 ), (q2, x2 ), ..., (qn, xn) dan periksa "kelurusan" hasil plot.</li>
+	<li>Intepretasikan diagram pencar yang diperoleh. Jika titik-titik yang diperoleh mengikuti garis lurus, maka dapat disimpulkan bahwa residual cenderung berdistribusi normal.</li>
+</ol>
+</br>
+<p>Contoh</p>
+<p>Periksalah apakah data berikut berdistribusi normal dengan menggunakan QQ Plot</p>
+<img src="qqplot1.JPG" alt="qqplot1">
+<ol>
+	<li>Pertama-tama urutkan data</br><img src="qqplot2.JPG" alt="qqplot2"></li>
+	<li>Carilah nilai peluang yang bersesuaian</br><img src="qqplot3.JPG" alt="qqplot3"></li>
+	<li>Hitung Quantile Normal Standar</br><img src="qqplot4.JPG" alt="qqplot4"></li>
+	<li>Buat diagram pencar</br><img src="qqplot5.JPG" alt="qqplot5"></li>
+	<li>Dari diagram pencar yang terbentuk terlihat bahwa titik-titik yang terbentuk cenderung mengikuti garis lurus sehingga dapat disimpulkan bahwa residual memenuhi asumsi normalitas.</li>
+</ol>
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/mwdP2ATYlvU">
+</iframe>
+
+</body>
+</html>

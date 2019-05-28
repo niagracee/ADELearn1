@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>  Diagram Batang Daun <i>(Steam and Leaf)</i> </title>
+	<link rel = "stylesheet" type = "text/css" href = "styles.css" />
+</head>
+
+<body>
+<h2>Diagram Batang Daun (<i>Steam and Leaf</i>) </h2>
+
+<p>Diagram batang daun atau yang dikenal dengan istilah '<i>stem-leaf diagram</i>'
+ditemukan oleh John Tukey. <i>Stem-leaf diagram </i> digunakan untuk menggambarkan
+/menyajikan data dengan cara memisahkan setiap nilai menjadi dua bagian:
+bagian batang (<i>stem</i>) yaitu digit angka paling kiri dan diikuti dengan angka
+berikutnya, yaitu daun (<i>leaf</i>) digit angka paling kanan.</br>
+
+<b>Tujuan Stem-leaf</b> diagram adalah untuk mengetahui beberapa hal berikut ini:</p>
+<ol>
+<li>Apakah pola pengamatan simetris</li>
+<li>Penyebaran atau variasi dari data pengamatan</li>
+<li>Apakah terdapat pencilan (outlier, nilai-nilai yang berada jauh dari yang lainnya)</li>
+<li>Titik pemusatan data </li>
+<li>Ada lokasi yang merupakan gap (kesenjangan dalam data)</li>
+</ol>
+<p><b>Kelebihan dari diagram batang-daun:</b>
+<ol>
+<li>Menunjukkan data asli</li>
+<li>Mengelompokkan ke dalam sebarang kategori</li>
+<li>Mempertahankan informasi dalam data</li>
+<li>Mudah dibuat dan dibaca</li>
+<li>Bisa digunakan untuk menentukan range dan median (harus dalam daun
+yang terurut)</li>
+<li>Dapat digunakan untuk mengurutkan data, pola/bentuk distribusi data
+(simetris, menceng kanan, mencemg kiri)</li>
+<li>Membandingkan distribusi 2 atau lebih kelompok</li>
+</ol>
+</p>
+
+<p>
+<b>Kelemahan:</b>
+Sulit untuk jumlah data yang banyak/besar dan rangenya besar.
+</p>
+<img src="steam2.PNG" alt="steam2">
+<p>Selain yang disebutkan di atas, juga terdapat distribusi data yang memiliki pola
+tidak beraturan.</br>
+<b>Cara membuat diagram batang daun secara umum:</b></br>
+<ol>
+<li>Data diurutkan terlebih dahulu (dalam urutan naik/turun).</li>
+<li>Tentukan batangnya, pastikan batang mencakup seluruh nilai.</li>
+<li>Catat setiap nilai data dengan menuliskan daun bersebelahan dengan batang
+yang bersesuaian.</li>
+<li>Hitung jumlah daun, harus sesuai dengan banyak data</li>
+<li>Pisahkan stem dan leaf dengan tanda '|' </li>
+<li>Beri keterangan stem dan leaf pada akhir diagram</li>
+<li>Buatlah interpretasi dengan melihat bentuk diagram</li>
+</ol>
+<b>Catatan</b> : Batang bernilai lebih besar daripada daun.
+Kebanyakan data itu menceng ke kanan atau menjurai ke bawah yang
+artinya cenderung banyak data yang bernilai kecil.
+</p>
+
+<p>
+	<b>Contoh diagram batang dan daun</b></br>
+	Buatlah stemleaf diagram untuk data berikut ini:</br>
+	23 58 43 32 26 44 49 30 99 38 57 36 65 45 48 66 53 44 26 </br>
+	Jawab : </br>
+<ul>
+	<li>23 26 26 30 32 36 38 43 44 44 45 48 49 53 57 58 65 66 99</li>
+	<li>Misal untuk tiga angka pertama, 23 26 dan 26. Angka puluhannya sama,
+		yaitu 2 sehingga angka tersebut ditempatkan pada stem (batang) yang
+		sama, begitupula angka satuannya 3, 6, 6 ditempatkan pada leaf yang sama
+		sehingga membentuk leaf 366.Apabila kita masukkan ke dalam bentuk <i>Stemleaf diagram</i> : </br>
+		<img src="steam3.PNG" alt="steam3"></li>
+	<li>Interpretasi:</br>
+		<ul>
+			<li> Tidak simetris, data miring (menjulur) ke arah kanan</li>
+			<li>Angka 99 merupakan outlier</li>
+			<li>Gap (kekosongan/kesenjangan data) terdapat pada stem: 7 dan 8</li>
+			<li>Pemusatan data terjadi pada stem 4, sekitar 4 puluhan</li>
+		</ul>
+	</li>
+</ul>
+</p>
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/SvoyeW3fIw4">
+</iframe>
+
+</body>
+</html>

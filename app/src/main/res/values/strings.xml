@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aplikasiii</string>
+
+    <string name="home">Home</string>
+    <string name="materi">Materi</string>
+    <string name="latihan">Latihan</string>
+    <string name="pengolah">Pengolah</string>
+</resources>

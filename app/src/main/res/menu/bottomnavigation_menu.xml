@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home_menu"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/materi_menu"
+        android:title="@string/materi"
+        android:icon="@drawable/ic_materi"/>
+
+    <item
+        android:id="@+id/latihan_menu"
+        android:title="@string/latihan"
+        android:icon="@drawable/ic_latihan"/>
+    <item
+        android:id="@+id/pengolah_menu"
+        android:title="@string/pengolah"
+        android:icon="@drawable/ic_pengolah"/>
+
+</menu>

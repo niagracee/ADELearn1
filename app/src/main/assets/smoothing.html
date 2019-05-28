@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Smoothing Data (Pemulusan Data)</title>
+	<link rel = "stylesheet" type = "text/css" href = "styles.css" />
+</head>
+
+<body>
+<h2>Smoothing Data (Pemulusan Data)</h2>
+<p>Pemulusan Data (<i>smoothing</i>) adalah proses untuk menghilangkan fluktuasi data random dari data <i>time series</i>. Dalam <i>smoothing</i>, data yang keluar jalur dikurangi, ditingkatkan, dan/atau ditekan agar tren pokok terlihat lebih jelas, sesuai garis dan dapat membuat prediksi.</p>
+<p>Mengapa dilakukan pemulusan data?</p>
+<ul>
+	<li>Untuk <b>meningkatkan</b> dan <b>menekan tren</b> dalam data dengan menghilangkan atau mengurangi ketidakteraturan komponen-komponen data <i>time series</i>.</li>
+	<li>Untuk <b>melihat pola data</b> (baik garis maupun kurva) yang menunjukkan garis tren dari data <i>time series</i>.</li>
+</ul>
+</br>
+<p>Tahap <i>Moving Average / Mean Smoothing</i></p>
+<ol>
+	<li>Urutkan Data</br>Misalnya terdapat data jumlah kelahiran bayi pada bulan Januari-Desember tahun 2013 berturut-turut adalah 10, 9, 8, 7, 24, 17, 13, 6, 11, 10, 12, 9.</li>
+	<li>Buatlah tabel untuk mempermudah penghitungan.</li>
+	<li>Tentukan Orde yang dipilih. Misalnya 3 dan 5.</li>
+	<li>Buat Grafik Untuk Membandingkan Tingkat Kemulusan.</li>
+</ol>
+<p>Kelebihan:</p>
+<ul>
+	<li>Cocok untuk data yang stasioner, dimana data memiliki varians konstan</li>
+	<li>Bisa meramal 1 periode di depannya</li>
+</ul>
+<p>Kekurangan:</p>
+<ul>
+	<li>Tidak cocok untuk data trend (tidak stasioner)</li>
+	<li>Sangat peka terhadap data ekstrim</li>
+</ul>
+</br>
+<p>Tahap Moving Median Smoothing</p>
+<ol>
+	<li>Urutkan Data. Misalnya terdapat data jumlah kelahiran bayi pada bulan Januari-Desember tahun 2013 berturut-turut adalah 10, 9, 8, 7, 24, 17, 13, 6, 11, 10, 12, 9.</li>
+	<li>Buatlah tabel untuk mempermudah penghitungan.</li>
+	<li>Tentukan Orde yang dipilih. Misalnya 3 dan 5</br>Orde 3 <b>adaequationdisini</b> maka 3-Median Moving nya.</br>Orde 5 <b>adaequationdisini</b> maka 5-Median Moving nya.</li>
+</ol>
+<p>Kelebihan:</p>
+<ul>
+	<li>Tidak dipengaruhi oleh <i>single outlier</i></li>
+	<li>Tidak dipengaruhi oleh nilai ekstrim</li>
+	<li>Pemulusan data lebih condong untuk menggunakan <i>moving median</i></li>
+</ul>
+<p>Kekurangan:</p>
+<ul>
+	<li>Peka terhadap penambahan jumlah data</li>
+	<li>Kurang bisa meramal 1 periode di depannya</li>
+</ul>
+</br>
+<p>Contoh</p>
+<p>Kasus Data Fiktif</p>
+<p>Data Hasil Penjualan (Milyar) PT. Maju Terus Tahun 2015</p>
+<img src="smoothing1.JPG" alt="smoothing1">
+</br>
+<img src="smoothing2.JPG" alt="smoothing2">
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/iyhPT92O1PI">
+</iframe>
+
+</body>
+</html>
