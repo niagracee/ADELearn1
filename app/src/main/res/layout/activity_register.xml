@@ -36,6 +36,18 @@
             android:textColor="#80FFFFFF"/>
 
         <EditText
+            android:id="@+id/etNim"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIM"
+            android:textColorHint="#80FFFFFF"
+            android:padding="8dp"
+            android:inputType="textPersonName"
+            android:background="@drawable/bg_rectangle_edittext"
+            android:textColor="#80FFFFFF"/>
+
+        <EditText
             android:id="@+id/etEmail"
             android:layout_marginTop="8dp"
             android:layout_width="match_parent"

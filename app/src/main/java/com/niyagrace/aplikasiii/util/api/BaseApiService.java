@@ -22,6 +22,7 @@ public interface BaseApiService {
     @FormUrlEncoded
     @POST("register.php")
     Call<ResponseBody> registerRequest(@Field("nama") String nama,
+                                       @Field("nim") String nim,
                                        @Field("email") String email,
                                        @Field("password") String password);
 

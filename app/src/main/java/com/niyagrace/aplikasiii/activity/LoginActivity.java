@@ -91,7 +91,9 @@ public class LoginActivity extends AppCompatActivity {
                                     // akan diparsing ke activity selanjutnya.
                                     Toast.makeText(mContext, "BERHASIL LOGIN", Toast.LENGTH_SHORT).show();
                                     String nama = jsonRESULTS.getJSONObject("user").getString("nama");
+                                    String nim = jsonRESULTS.getJSONObject("user").getString("nim");
                                     sharedPrefManager.saveSPString(SharedPrefManager.SP_NAMA, nama);
+                                    sharedPrefManager.saveSPString(SharedPrefManager.SP_NIM, nim);
                                     // Shared Pref ini berfungsi untuk menjadi trigger session login
                                     sharedPrefManager.saveSPBoolean(SharedPrefManager.SP_SUDAH_LOGIN, true);
                                     startActivity(new Intent(mContext, MainActivity.class)

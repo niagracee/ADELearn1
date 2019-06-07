@@ -95,7 +95,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Deskripsi Materi Ini Apa Yaa Eh coba cek"
+                            android:text="Analisis Data Eksploratif"
                             android:textSize="18sp"
                             android:gravity="left"/>
 
@@ -151,7 +151,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Deskripsi Materi Ini Apa Yaa Eh coba cek"
+                            android:text="Diagram Batang Daun"
                             android:textSize="18sp"
                             android:gravity="left"/>
 
@@ -207,7 +207,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Deskripsi Materi Ini Apa Yaa Eh coba cek"
+                            android:text="Ringkasan Data Numerik"
                             android:textSize="18sp"
                             android:gravity="left"/>
 
@@ -250,7 +250,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="1"
+                                android:text="4"
                                 android:textSize="30sp"
                                 android:gravity="center"/>
                         </LinearLayout>
@@ -263,7 +263,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Deskripsi Materi Ini Apa Yaa Eh coba cek"
+                            android:text="Dot Plot dan Boxplot"
                             android:textSize="18sp"
                             android:gravity="left"/>
 
@@ -306,7 +306,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="1"
+                                android:text="5"
                                 android:textSize="30sp"
                                 android:gravity="center"/>
                         </LinearLayout>
@@ -319,7 +319,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Deskripsi Materi Ini Apa Yaa Eh coba cek"
+                            android:text="Transformasi Data"
                             android:textSize="18sp"
                             android:gravity="left"/>
 
@@ -362,7 +362,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="1"
+                                android:text="6"
                                 android:textSize="30sp"
                                 android:gravity="center"/>
                         </LinearLayout>
@@ -375,7 +375,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Deskripsi Materi Ini Apa Yaa Eh coba cek"
+                            android:text="Pemulusan Data Series"
                             android:textSize="18sp"
                             android:gravity="left"/>
 

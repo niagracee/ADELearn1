@@ -30,6 +30,7 @@ import retrofit2.Response;
 public class RegisterActivity extends AppCompatActivity {
 
     @BindView(R.id.etNama) EditText etNama;
+    @BindView(R.id.etNim) EditText etNim;
     @BindView(R.id.etEmail) EditText etEmail;
     @BindView(R.id.etPassword) EditText etPassword;
     @BindView(R.id.btnRegister) Button btnRegister;
@@ -59,6 +60,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     private void requestRegister() {
         mApiService.registerRequest(etNama.getText().toString(),
+                etNim.getText().toString(),
                 etEmail.getText().toString(),
                 etPassword.getText().toString())
                 .enqueue(new Callback<ResponseBody>() {

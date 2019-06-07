@@ -16,6 +16,7 @@ public class SharedPrefManager {
     public static final String SP_MAHASISWA_APP = "spMahasiswaApp";
 
     public static final String SP_NAMA = "spNama";
+    public static final String SP_NIM = "spNim";
     public static final String SP_EMAIL = "spEmail";
 
     public static final String SP_SUDAH_LOGIN = "spSudahLogin";
